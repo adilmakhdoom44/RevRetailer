@@ -68,8 +68,8 @@ header p {
 
 .welcome img {
   position: absolute;
-  left: 350px;
-  top: 500px;
+  top: 320px;
+  right: 800px;
   display: block;
   margin-left: 250px;
 }
