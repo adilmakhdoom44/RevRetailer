@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RaveRetailer Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMKP6WE7khN3QhYrrk35JCE7wdOxj1y+Y1pM/2G" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Rave<span class="retailer">Retailer</span></h1>
+      <p>BY STUDIO98</p>
+    </header>
+
+    <div class="login-card">
+        <div class="welcome">
+            <h2>Welcome Back!</h2>
+            <p>Login in to explore the world</p>
+            <div class="cart-logo-wrapper">
+              <img src="./cart.jpeg" alt="Shopping cart image">
+            </div>
+          </div>
+      <form>
+        <label for="email" class="form-label">Email *</label>
+        <div class="input-group">
+          <span class="icon"><i class="fas fa-envelope"></i></span>
+          <input type="email" id="email" name="email" placeholder="Emma@raveretailer.com" required>
+        </div>
+        
+        <label for="password" class="form-label">Password *</label>
+        <div class="input-group">
+          <span class="icon"><i class="fas fa-lock"></i></span>
+          <input type="password" id="password" name="password" placeholder="••••••••" required>
+        </div>
+        
+        <div class="remember">
+          <input type="checkbox" id="remember-me">
+          <label for="remember-me">Remember Me</label>
+        </div>
+        
+        <button type="submit" class="btn-signin">SIGN IN</button>
+        
+        <a href="#" class="forgot-password">Forgot your password?</a>
+      </form>
+    </div>
+
+    <footer>
+      <p>2024 © RaveRetailer, LLC. Crafted with ❤️ by Studio98</p>
+    </footer>
+  </div>
+</body>
+</html>
